@@ -5,7 +5,7 @@ The code of the second assignment of widebot internship
 
 -> Description of the steps included in the jupyter notebook file
 
--> `predict.py`
+- `predict.py`
 	- Loads the preprocessing pipeline for the features
 	- Loads the label encoder for the target column
 	- Loads the best performing models
