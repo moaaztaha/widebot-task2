@@ -6,11 +6,11 @@ The code of the second assignment of widebot internship
 -> Description of the steps included in the jupyter notebook file
 
 - `predict.py`
-	- Loads the preprocessing pipeline for the features
-	- Loads the label encoder for the target column
+	- Loads the **preprocessing pipeline** for the features
+	- Loads the **label encoder** for the target column
 	- Loads the best performing models
 		- `knn_train.pkl`: best performing on the training data
-		- 'rf_all.pkl`: best performing on all the data
+		- `rf_all.pkl`: best performing on all the data
 	- Loads one random row from the validation set 
 	- Preprocess the row
 	- Make prediction
