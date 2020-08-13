@@ -14,3 +14,6 @@ The code of the second assignment of widebot internship
 	- Loads one random row from the validation set 
 	- Preprocess the row
 	- Make prediction
+
+- Docker
+	- `docker build -t binary . && docker run -it binary`

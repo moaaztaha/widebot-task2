@@ -1,7 +1,6 @@
 # imports
 import pandas as pd
 import numpy as np
-import os
 from pickle import load
 
 from sklearn.pipeline import Pipeline
@@ -16,8 +15,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # getting the data
-DATA_DIR = 'binary_classifier_data/'
-valid_ds = pd.read_csv(os.path.join(DATA_DIR, 'validation.csv'), delimiter=';', decimal=',')
+valid_ds = pd.read_csv('validation.csv', delimiter=';', decimal=',')
 one_row = valid_ds.sample(1)
 
 # preprocessing
