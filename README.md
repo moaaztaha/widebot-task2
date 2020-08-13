@@ -2,7 +2,9 @@
 The code of the second assignment of widebot internship
 
 -> The Final version of the code [here](https://github.com/moaaztaha/widebot-task2/blob/master/Final.ipynb)
+
 -> Description of the steps included in the jupyter notebook file
+
 -> `predict.py`
 	- Loads the preprocessing pipeline for the features
 	- Loads the label encoder for the target column
